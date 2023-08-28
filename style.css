@@ -1,4 +1,29 @@
-* {
-    background-color: rgb(66, 66, 66);
-    color: white;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,300&family=Ubuntu:wght@300&display=swap');
+
+:root {
+    --font: 'Josefin Sans', 'Ubuntu', 'Georgia', 'sans-serif';
 }
+
+* {
+    font-family: var(--font);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: grid;
+}
+
+div[class^='icon'] {
+    max-width: 2em;
+    max-height: 100%;
+}
+
+.big-icon-dashboard{
+    max-width: 4em;
+    max-height: 100%;
+}
+
